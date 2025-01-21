@@ -14,7 +14,7 @@ import asyncio
 # Initialize FastAPI
 app = FastAPI()
 
-# CORS middleware
+# CORS middleware : connect fronend and backend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
